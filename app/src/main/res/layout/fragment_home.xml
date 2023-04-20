@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.home.HomeFragment">
+
+    <TextView
+        android:id="@+id/header_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_margin="10dp"
+        android:text="@string/enjoy_the_world_ninto_virtual_reality"/>
+
+    <RelativeLayout
+        android:id="@+id/add_view"
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:layout_margin="10dp"
+        android:layout_below="@+id/header_title">
+
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@mipmap/vr_box"
+            android:layout_alignParentRight="true"
+            android:baselineAlignBottom="true"
+            android:elevation="8dp" />
+
+        <TextView
+            android:id="@+id/subtitle_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:padding="5dp"
+            android:textSize="16sp"
+            android:layout_centerVertical="true"
+            android:textStyle="bold"
+            android:elevation="8dp"
+            android:text="@string/enjoy_the_design_with_virtual_reality"/>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="250dp"
+        android:layout_height="200dp"
+        app:cardBackgroundColor="#1179C8"
+        android:elevation="5dp"
+        app:cardCornerRadius="15dp">
+
+    </androidx.cardview.widget.CardView>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_bg"
+            android:backgroundTint="@color/white"
+            android:textColor="#41ADD7"
+            android:layout_margin="5dp"
+            android:layout_alignParentBottom="true"
+            android:text="@string/buy_now" />
+
+    </RelativeLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/category_list_view"
+        android:layout_margin="10dp"
+        android:layout_below="@+id/add_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/product_list_view"
+        android:layout_margin="10dp"
+        android:layout_below="@+id/category_list_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</RelativeLayout>

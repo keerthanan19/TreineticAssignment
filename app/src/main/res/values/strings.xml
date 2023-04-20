@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">TreineticAssignment</string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="enjoy_the_world_ninto_virtual_reality">Enjoy the world\ninto virtual reality</string>
+    <string name="enjoy_the_design_with_virtual_reality">Improved Controller\nDesign With\nVirtual Reality</string>
+    <string name="search_hint">Search</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="buy_now">Buy Now!</string>
+    <string name="tittle">Tittle</string>
+</resources>

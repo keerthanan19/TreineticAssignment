@@ -1,0 +1,12 @@
+<resources>
+    <string-array name="category_list">
+        <item>All Product</item>
+        <item>New Arrivals</item>
+        <item>Best Sellers</item>
+        <item>Top Rated</item>
+        <item>Featured Products</item>
+        <item>Clearance or Sale</item>
+        <item>Related or Similar Products</item>
+        <item>Recommended for You</item>
+    </string-array>
+</resources>

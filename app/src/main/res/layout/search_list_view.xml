@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="0dp"
+        tools:ignore="ContentDescription,RtlHardcoded" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/image"
+        android:layout_alignLeft="@+id/image"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="10dp"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:layout_marginTop="20dp"
+        android:textAlignment="gravity"
+        android:gravity="right"
+        tools:ignore="RtlHardcoded" />
+
+
+    <TextView
+        android:id="@+id/number"
+        android:textSize="14sp"
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/image"
+        android:layout_alignLeft="@+id/image"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/name"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="5dp"
+        android:textAlignment="gravity"
+        android:gravity="right"
+        tools:ignore="RtlHardcoded" />
+
+    <TextView
+        android:id="@+id/city"
+        android:textSize="14sp"
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/image"
+        android:layout_alignLeft="@+id/image"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/name"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="5dp"
+        android:textAlignment="gravity"
+        android:gravity="right"
+        android:visibility="gone"
+        tools:ignore="RtlHardcoded" />
+
+    <TextView
+        android:id="@+id/line2"
+        android:textSize="14sp"
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/image"
+        android:layout_alignLeft="@+id/image"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/name"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="5dp"
+        android:textAlignment="gravity"
+        android:gravity="right"
+        android:visibility="gone"
+        tools:ignore="RtlHardcoded" />
+
+
+    <TextView
+        android:id="@+id/catg"
+        android:textSize="14sp"
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/image"
+        android:layout_alignLeft="@+id/image"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/name"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="5dp"
+        android:textAlignment="gravity"
+        android:visibility="gone"
+        android:gravity="right"
+        tools:ignore="RtlHardcoded" />
+
+
+
+    <View
+        android:id="@+id/main_divider"
+        android:layout_width="match_parent"
+        android:paddingTop="5dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:paddingBottom="10dp"
+        android:textColor="@color/white"
+        style="@style/Divider"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_below="@+id/image"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:gravity="center"
+        android:background="#858080"
+        android:layout_marginTop="5dp"
+        tools:ignore="RtlHardcoded" />
+
+</RelativeLayout>

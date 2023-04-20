@@ -1,0 +1,89 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#ffffff</item>
+        <item name="colorPrimaryDark">#ffffff</item>
+        <item name="colorAccent">#000000</item>
+    </style>
+
+    <style name="WhiteCheck">
+        <item name="colorAccent">#ffffff</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:background">#000000</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="Divider">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">2.25dp</item>
+        <item name="android:background">?android:attr/listDivider</item>
+        <item name="android:color">@color/white</item>
+    </style>
+
+    <!-- Base application theme. -->
+    <style name="AppThemes" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">#100e0e</item>
+        <item name="colorPrimaryDark">#150707</item>
+        <item name="colorAccent">#494646</item>
+    </style>
+
+    <style name="WhiteDrawerIconStyle" parent="Widget.AppCompat.DrawerArrowToggle">
+        <item name="spinBars">true</item>
+        <item name="color">@android:color/white</item>
+        <item name="android:labelTextSize">15sp</item>
+    </style>
+
+    <style name="AppTheme.CustomTheme">
+
+    </style>
+
+    <style name="AppTheme.NavigationView">
+        <item name="android:textColorSecondary">#ffffff</item>
+        <item name="android:background">#000000</item>
+        <item name="android:textSize">26sp</item>
+        <item name="android:labelTextSize">15sp</item>
+        <item name="android:textAlignment" tools:targetApi="jelly_bean_mr1">center</item>
+    </style>
+
+    <style name="MenuTextStyle">
+        <item name="android:textColor">#fefefe</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:background">#000000</item>
+    </style>
+
+    <style name="Toolbar_TextStyle">
+        <item name="android:textColor">#fefefe</item>
+        <item name="android:textSize">26sp</item>
+        <item name="android:background">#000000</item>
+    </style>
+
+    <style name="Provider_Toolbar_TextStyle">
+        <item name="android:textColor">#fefefe</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:background">#000000</item>
+    </style>
+
+
+    <style name="NoActionBar" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="MSV_ImageButton">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">?android:attr/selectableItemBackgroundBorderless</item>
+        <item name="android:paddingLeft">@dimen/search_icon_padding</item>
+        <item name="android:paddingRight">@dimen/search_icon_padding</item>
+    </style>
+
+</resources>

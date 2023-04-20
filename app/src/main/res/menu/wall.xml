@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools2="http://schemas.android.com/tools"
+    tools:context="com.example.sample.YourActivity"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    tools2:ignore="NamespaceTypo">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="About Us"
+        app:showAsAction="never"
+        tools2:ignore="HardcodedText" />
+
+    <item android:id="@+id/search"
+        android:title="Search"
+        android:icon="@drawable/ic_action_action_search"
+        app:showAsAction="always"
+        android:padding="25dp"
+        tools2:ignore="AlwaysShowAction,HardcodedText" />
+
+</menu>
